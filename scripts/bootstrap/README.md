@@ -7,7 +7,7 @@ high-confidence classified orphan genes.
 ## How to run
 
 Prepare a two-column table (Gene, Probabilities) of the high-confidence
-genes (predicted de novo and predicted old) from Supplementary Table S14,
+genes (predicted de novo and predicted old) from Supplementary Table S16,
 then:
 
 ```bash
@@ -19,7 +19,7 @@ Alternatively feed the full S14 prediction table: with the `Class` column
 
 ## Verified reproduction (2026-11-11)
 
-From the published Table S14 (standard model, 5,026 high-confidence genes,
+From the published Table S16 (standard model, 5,026 high-confidence genes,
 4,018 predicted de novo = 79.94%):
 
 ```

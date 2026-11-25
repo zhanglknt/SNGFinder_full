@@ -205,7 +205,7 @@ calls required for a threshold to be admissible (30 / 200 for the reported
 runs). The three input files used for
 the reported runs are deposited in `classifier_data/`, together with
 `COLUMN_MAP.tsv`, which maps the 31 pipeline column names onto the names used
-in Supplementary Tables S3 and S10. The fitted model for the reported run and
+in Supplementary Tables S7 and S16. The fitted model for the reported run and
 its analysis configuration are deposited in `classifier_data/model/`; because
 `xgboost 2.1.4` reproduces the published probabilities bit-for-bit, the stored
 model and a fresh retraining from the deposited inputs are interchangeable.
@@ -225,7 +225,7 @@ Examples:
 The classifier applies a dual-threshold abstention rule
 (`t_low` / `t_high`) so low-confidence orphans are reported as `unclassified`
 rather than forced into de-novo / old. The 59-feature set is documented in
-`Table S4` (manuscript supplementary material).
+`Table S8` (manuscript supplementary material).
 
 ## Supplementary analysis scripts (`scripts/`)
 
@@ -242,11 +242,10 @@ pipeline) and depend on intermediate datasets produced by the SNGFinder pipeline
 
 If you use SNGFinder, the classifier or the derived tables, please cite:
 
-Liu G, Li K, Shao Y, Kong L, Zhang L. Pervasive de novo origination and rapid
-turnover of new genes across the AA-genome Oryza species. *Nucleic Acids
+Liu G, Li K, Shao Y, Kong L, Zhang L. A systematic dissection of new-gene origination, turnover and function across the AA-genome Oryza species. *Nucleic Acids
 Research* (submitted).
 
-The Table S2 input bundle and the regenerated intermediate tables are archived
+The Table S6 input bundle and the regenerated intermediate tables are archived
 at Zenodo: https://doi.org/10.5281/zenodo.24130664
 
 The pipeline also builds on the framework introduced in:

@@ -36,9 +36,9 @@ availability section of the manuscript):
 - outgroup GFFs: Oryza_punctata.gff3 / Oryza_brachyantha.gff3 / Leersia_perrieri.gff3
 - NCBI RefSeq of GCF_000231095.1 (assembly_report.txt + genomic.gff.gz) for the screen
 
-## table_S4/ — Supplementary Table S2 regeneration (t3.py chain)
+## table_S4/ — Supplementary Table S6 regeneration (t3.py chain)
 
-End-to-end regeneration of Supplementary Table S2 (996 two-sided
+End-to-end regeneration of Supplementary Table S6 (996 two-sided
 Mann–Whitney tests). Includes `t3.py`, `GetTag.py` + tag lists, the 8 input
 files regenerated from raw data (6 DNA-methylation window tables, 2 FUBAR ω
 tables), the reference output `utest.xls`, and a link to the Zenodo data

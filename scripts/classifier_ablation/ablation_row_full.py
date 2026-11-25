@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Compute the FULL metric row (all Supplementary Table S11 columns) for one
-ablation feature set, so that Table S11 can carry the same row set as Table S5.
+"""Compute the FULL metric row (all Supplementary Table S13 columns) for one
+ablation feature set, so that Table S13 can carry the same row set as Table S9.
 
 The unified run (ablation_orphan_unify.py) emits the per-gene orphan calls for
-all nine models but only the Table S5 summary columns; this script recomputes
+all nine models but only the Table S9 summary columns; this script recomputes
 the complete S11 metric row for a single model. It was used for the
-Gene_architecture_only row of Supplementary Table S11.
+Gene_architecture_only row of Supplementary Table S13.
 
 Usage (from the repository root):
     python scripts/classifier_ablation/ablation_row_full.py Gene_architecture_only [outdir]

@@ -15,7 +15,7 @@ set, and re-applying it to the 6,149 orphan genes.
 ## How to run
 
 The 175-gene list intersects the 324 published positives (Supplementary
-Table S3) in 167 genes, which become the stringent training/test
+Table S7) in 167 genes, which become the stringent training/test
 positives (114 + 53).
 
 ```bash
@@ -30,7 +30,7 @@ python ModelTrain_v3.py XGBoost Training_Dataset_denovo175.csv \
     A_ppv0.95_npv0.995_30_200 0.2 A 0.95 0.995 30 200 revision_outputs_stringent
 ```
 
-`Orphan_Dataset.csv` is reconstructed from Supplementary Table S10.
+`Orphan_Dataset.csv` is reconstructed from Supplementary Table S16.
 
 ## Verified reproduction (2026-11-11)
 
